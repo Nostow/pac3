@@ -2,6 +2,8 @@
 
 Each ZIP is independent and includes one model, its two materials, its base texture, both shared lighting textures, and a README with dependency evidence. The original extracted bundle is unchanged.
 
+All standalone hair ZIPs use stored (uncompressed) entries. Preserve this setting when rebuilding them.
+
 Keep local extracted addon sources under `extracted/`, which Git ignores. The hair source bundle is at `extracted/hair_resource_extracted/`; filenames inside it are unchanged. ZIP READMEs refer to this bundle by its original name, `hair_resource_extracted`. Publish the standalone ZIPs from the repository root.
 
 | Hair / ZIP | PAC3 model path | Material pair |
